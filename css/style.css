@@ -108,7 +108,7 @@
     line-height: 26px;
 }
 
-.hero-content button {
+.hero-content a button {
     font-family: "Azeret Mono", monospace;
     color: #fff;
     font-size: 20px;
@@ -340,30 +340,21 @@
     border: none;
     cursor: pointer;
 }
-
 /* skills section end  */
 
-/* footer section start  */
-#footer {
+/* support section start  */
+#support {
     padding: 50px 150px;
 }
-.footer-image {
+.support-image {
     overflow: hidden;
     border-radius: 16px;
     position: relative;
     height: 300px;
 }
 
-.footer-image > img {
-    /* height: 300px;
-    position: absolute;
-    top: 0; */
-    background-size: cover;
-    background-position: center;
-    margin-top: -30px !important;
-}
 
-.footer-text {
+.support-text {
     position: absolute;
     top: 10%;
     left: 50%;
@@ -371,14 +362,14 @@
     text-align: center;
 }
 
-.footer-text h4 {
+.support-text h4 {
     font-family: "Azeret Mono", monospace;
     color: #fff;
     font-size: 32px;
     font-weight: 800;
 }
 
-.footer-text p {
+.support-text p {
     font-family: "Azeret Mono", monospace;
     color: #fff;
     font-size: 16px;
@@ -394,7 +385,7 @@
     gap: 20px;
 }
 
-.footer-text input {
+.support-text input {
     font-family: "Azeret Mono", monospace;
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
@@ -405,7 +396,7 @@
     border: none;
 }
 
-.footer-text button {
+.support-text button {
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
     font-size: 20px;
@@ -417,9 +408,10 @@
     border: none;
     cursor: pointer;
 }
-/* footer section end  */
+/* support section end  */
 
-#copyright {
+/* footer section  */
+#footer {
     background-color: rgba(13, 19, 33, 0.1);
     padding: 16px 150px;
     display: flex;
@@ -427,17 +419,17 @@
     align-items: center;
 }
 
-#copyright p {
+#footer p {
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
     font-size: 20px;
     font-weight: 500;
 }
 
-#copyright .copyright-images a {
+#footer .footer-images a {
     margin-right: 15px;
 }
 
-#copyright .copyright-images a:last-child {
+#footer .footer-images a:last-child {
     margin-right: 0px;
 }
