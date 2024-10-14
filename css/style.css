@@ -31,6 +31,8 @@
    font-size: 16px;
     font-weight: 400;
     color: #0D1321; 
+    line-height: 26px;
+    text-align: justify;
 }
 
 
@@ -71,22 +73,18 @@
 /* navbar css end  */
 
 /* hero css start  */
-#hero {
-   background-image: url(../images/Hero-bg.png);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-#hero {
-    /* max-width: 1440px; */
+
+#hero > .hero-back-image img {
+    width: 100%;
     position: relative;
 }
 
 .hero-content {
     position: absolute;
-    top: 40px;
-    left: 33%;
-    transform: translateX(-31%);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
 }
 
 .hero-content {
@@ -96,9 +94,8 @@
 .hero-content .text h1 {
     font-family: "Azeret Mono", monospace;
     color: #0D1321;
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 900;
-    padding: 0 70px;
 }
 
 .hero-content .text p {
@@ -107,6 +104,8 @@
     font-size: 16px;
     font-weight: 400;
     padding: 20px;
+    text-align: justify;
+    line-height: 26px;
 }
 
 .hero-content button {
@@ -119,6 +118,7 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 /* hero css end  */
 
@@ -165,6 +165,7 @@
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
     text-align: justify;
     margin: 20px 0;
 }
@@ -207,6 +208,7 @@
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
     text-align: justify;
     margin: 20px 0;
 }
@@ -238,7 +240,6 @@
 .start-video iframe {
     border-radius: 16px;
 }
-
 /* video section css end  */
 
 /* skills section start  */
@@ -284,6 +285,8 @@
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
     margin-bottom: 14px;
 }
 
@@ -322,6 +325,8 @@
     color: #0D1321;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
     margin-bottom: 14px;
 }
 
@@ -336,5 +341,103 @@
     cursor: pointer;
 }
 
-
 /* skills section end  */
+
+/* footer section start  */
+#footer {
+    padding: 50px 150px;
+}
+.footer-image {
+    overflow: hidden;
+    border-radius: 16px;
+    position: relative;
+    height: 300px;
+}
+
+.footer-image > img {
+    /* height: 300px;
+    position: absolute;
+    top: 0; */
+    background-size: cover;
+    background-position: center;
+    margin-top: -30px !important;
+}
+
+.footer-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.footer-text h4 {
+    font-family: "Azeret Mono", monospace;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-text p {
+    font-family: "Azeret Mono", monospace;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 26px;
+    line-height: 26px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-text input {
+    font-family: "Azeret Mono", monospace;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    width: 548px;
+    border-radius: 8px;
+    padding: 18px;
+    border: none;
+}
+
+.footer-text button {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    width: 100px;
+    padding: 16px 0;
+    border-radius: 8px;
+    padding: 16px 0;
+    border: none;
+    cursor: pointer;
+}
+/* footer section end  */
+
+#copyright {
+    background-color: rgba(13, 19, 33, 0.1);
+    padding: 16px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright p {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#copyright .copyright-images a {
+    margin-right: 15px;
+}
+
+#copyright .copyright-images a:last-child {
+    margin-right: 0px;
+}
