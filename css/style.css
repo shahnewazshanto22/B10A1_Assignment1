@@ -12,6 +12,27 @@
     font-weight: 400;
     font-style: normal;
   }
+/* common header design  */
+.common-heading {
+    text-align: center;
+    padding: 0 70px;
+}
+
+.common-heading h3 {
+    font-family: "Azeret Mono", monospace;
+   font-size: 32px;
+    font-weight: 900;
+    color: #0D1321; 
+    margin-bottom: 15px;
+}
+
+.common-heading p {
+    font-family: "Azeret Mono", monospace;
+   font-size: 16px;
+    font-weight: 400;
+    color: #0D1321; 
+}
+
 
 /* navbar css start  */
 #header {
@@ -99,6 +120,104 @@
     border: none;
     cursor: pointer;
 }
-
-
 /* hero css end  */
+
+/* learning-development css end  */
+#learning-development {
+    padding: 50px 150px;
+}
+
+.development-wrapper {
+    background-color: rgba(13, 19, 33, 0.1);
+    border-radius: 16px;
+    padding: 80px 97px;
+}
+
+.development-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    padding: 48px;
+    background:  linear-gradient(to left, rgba(255,0,0,0), rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.development-content .dev-text {
+    padding-right: 70px;
+}
+
+.development-content-two .dev-text {
+    padding-left: 70px;
+    padding-right: 0;
+}
+
+.development-content .dev-text h4 {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.development-content .dev-text p {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.development-content .dev-text a button {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #0D1321;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.dev-image img{
+    height: 350px;
+}
+
+.development-content-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    padding: 48px;
+    background:  linear-gradient(to right, rgba(255,0,0,0), rgb(255, 255, 255));
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
+}
+
+.development-content-two .dev-text h4 {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.development-content-two .dev-text p {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.development-content-two .dev-text a button {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #0D1321;
+    padding: 12px 20px;
+    cursor: pointer;
+}
