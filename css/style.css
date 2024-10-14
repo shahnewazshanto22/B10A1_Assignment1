@@ -122,7 +122,7 @@
 }
 /* hero css end  */
 
-/* learning-development css end  */
+/* learning-development css start  */
 #learning-development {
     padding: 50px 150px;
 }
@@ -221,3 +221,22 @@
     padding: 12px 20px;
     cursor: pointer;
 }
+/* learning-development css end  */
+
+/* video section css start  */
+#video-section {
+    padding: 50px 150px;
+}
+
+.start-video {
+    margin-top: 30px;
+    border: 1px solid rgba(13, 19, 33, 0.3);
+    border-radius: 16px;
+    padding: 30px;
+}
+
+.start-video iframe {
+    border-radius: 16px;
+}
+
+/* video section css end  */
