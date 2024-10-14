@@ -240,3 +240,101 @@
 }
 
 /* video section css end  */
+
+/* skills section start  */
+#skills {
+    padding: 50px 150px;
+}
+
+.current-target-skills {
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.current-target-skills .box-one {
+    padding: 40px;
+    background-color: rgba(255, 75, 30, 0.2);
+    border-radius: 16px;
+}
+
+.current-target-skills .box-two {
+    padding: 40px;
+    background-color: rgba(0, 77, 232, 0.1);
+    border-radius: 16px;
+}
+
+.current-target-skills .box-three {
+    padding: 40px;
+    background-color: rgba(255, 221, 0, 0.1);
+    border-radius: 16px;
+}
+
+.current-target-skills .box-content h4 {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 14px 0;
+}
+
+.current-target-skills .box-content p {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.current-target-skills .box-content a button {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.next-target-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.3);
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.next-target-box-content h4 {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 14px 0;
+}
+
+.next-target-box-content p {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+
+.next-target-box-content a button {
+    font-family: "Azeret Mono", monospace;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: underline;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* skills section end  */
